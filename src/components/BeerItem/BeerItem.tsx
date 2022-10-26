@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Beer } from '../../interface/beer'
 import styles from './BeerItem.module.css'
 
@@ -17,4 +17,4 @@ const BeerItem = ({ info, onPress }: React.PropsWithChildren<BeerItemProps>) => 
     )
 }
 
-export default BeerItem;
+export default memo(BeerItem);
