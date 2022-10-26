@@ -5,6 +5,10 @@
 ## Features
 
 -Lazy loading
+
 -global state managment using redux
+
 -search functionality
+
 -mobile responsive
+
